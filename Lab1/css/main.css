@@ -1,0 +1,100 @@
+body{
+width: 1000px;
+padding: 0;
+margin: auto;
+position: relative;
+font-family: "Arial", sans-serif;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color:#828282;
+}
+
+li:nth-child(-n+4){
+  margin-right: 150px;
+}
+
+nav{
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+}
+
+li:hover{
+  color: black;
+  cursor: pointer;
+}
+
+#me{
+  margin-bottom: 105px;
+}
+
+#me img{
+  margin-top: 50px;
+}
+
+#about{
+  padding: 120px 0 100px 0;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+#about div{
+  margin-bottom: 40px;
+}
+
+#skills{
+  padding:120px 0 100px 0;
+  text-align: center;
+  margin-top: 20px;
+  background-color:white;
+  
+}
+
+.skills div{
+  text-align: center;
+  display: inline-block;
+}
+
+#portfolio{
+
+  background-color: #F6F6F6;
+}
+h2{
+  text-align: center;
+}
+
+#portfolio div{
+  padding:120px 0 100px 0;
+  text-align: center;
+  padding: 20px 0px 20px;
+}
+
+#contacts{
+  padding: 120px 0 100px 0;
+  text-align: center;
+  background-color: white;
+}
+button{
+  background-color: black;
+  color: white;
+  outline: none;
+  border-radius: 25px;
+  height: 42px;
+  width: 180px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+button:hover{
+  height: 32px;
+  width: 160px;
+  outline: none;
+}
+
